@@ -1,0 +1,88 @@
+header {
+    background-color: rgb(39, 37, 37);
+    font-size: 5px;
+}    
+
+.logo-container { /*darle color azul al fondo del logo DINE*/
+    background-color: rgb(47, 142, 219);
+    width: auto;
+    padding: 10px; /* Ajusta según sea necesario */
+}
+
+
+nav { /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+
+select {
+    background-color: rgba(34, 33, 33, 0.5);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.inicio-button {
+    background-color: rgb(226, 221, 221);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px 1px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 1040px;
+    width: 65px;
+
+}
+
+.generales-button {
+    background-color: #37bbed; /* Color azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px; /* Borde redondeado */
+    font-size: 12px;
+}
+
+.paso-button {
+    background-color: #ee3d8f; /* Color rosa */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px; /* Borde redondeado */
+    font-size: 12px;
+    margin-left: 30px;
+}
+nav { /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+.nav-links { /*boton "INFORMES"*/
+    list-style: none;
+    margin-left: auto; /*mover el boton a la derecha*/
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+#sec-titulo {
+    margin-left: 50px; /* Ajusta este valor según sea necesario para mover hacia la derecha */
+    font-size: 20px;
+}
+
+
+footer { /*darle fondo negro al pie de pagina*/
+    margin-top: 20px; /* Ajusta la distancia hacia abajo según sea necesario */
+    background-color: #272626;
+    text-align: left;
+    color: rgb(107, 103, 103);
+}
