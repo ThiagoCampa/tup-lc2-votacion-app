@@ -1,0 +1,272 @@
+header {
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5px;
+}
+
+.flex-container {
+    /* Añadir estilos personalizados para la posición y el tamaño */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    /*darle color azul al fondo del logo DINE*/
+    background-color: rgb(47, 142, 219);
+    padding: 10px;
+    /* Ajusta según sea necesario */
+    width: auto;
+}
+
+.logo {
+    /*parte azul del logo "Dine*/
+    margin-left: 10px;
+    /*ajustar tamaño*/
+    width: 110px;
+}
+
+nav {
+    /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+nav {
+    /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+select {
+    background-color: rgba(34, 33, 33, 0.5);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: none;
+    margin-right: 10px;
+    margin-top: -30px;
+    margin-bottom: -20;
+}
+
+
+.inicio-button {
+    background-color: rgb(226, 221, 221);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px 1px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 834px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    width: 60px;
+}
+
+.informes-button {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: -30px;
+    border: 1px solid #ffffff;
+}
+
+.agregar-button {
+    background-color: #888888;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+}
+
+.agregar-button:hover {
+    background-color: #666666;
+    margin-top: auto;
+}
+
+.texto-path {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #2b87b6;
+}
+
+.mesas-escrutadas {
+    background-color: rgb(51, 141, 180);
+    border-radius: 10px;
+    margin: 15px;
+    height: 140px;
+    width: 200px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-urna.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.electores {
+    background-color: rgb(255, 0, 191);
+    border-radius: 10px;
+    margin: 15px;
+    height: 140px;
+    width: 200px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-personas.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.participacion-escrutado {
+    background-color: rgb(193, 138, 206);
+    border-radius: 10px;
+    margin: 15px;
+    height: 140px;
+    width: 200px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-manos.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recuadro {
+    border-radius: 35px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    margin: 25px;
+    /* Agregado */
+}
+/* Estilos para el sub-recuadro dentro del recuadro principal */
+
+.sub-recuadro {
+    height: 300px;
+    /* Altura máxima del recuadro */
+    overflow: auto;
+    /* Agrega barras de desplazamiento si es necesario */
+    border: 3px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    /* Color de fondo del sub-recuadro */
+    padding: 3px;
+    /* Espaciado interno del sub-recuadro */
+    border: 3px solid #ddd;
+    /* Borde del sub-recuadro */
+    flex: 0.5;
+    /* Ajusta el valor de flex según tus necesidades */
+    margin: auto;
+}
+
+.mapas img,
+.mapas p {
+    margin: 5px;
+}
+
+.progress {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: rgb(243, 243, 189);
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la dirección de los elementos a columnas */
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    width: 15%;
+    background: yellowgreen;
+}
+
+.progress-bar p,
+.progress-bar-text {
+    margin: 5px 0;
+    /* Espacio vertical entre elementos */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+.progress-bar-text {
+    font-weight: bold;
+    font-size: 9px;
+}
+/*Grafica*/
+/* Estilo para la barra de gráficos */
+
+.grifica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilo para cada barra de gráfico */
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: #007BFF;
+    /* Color de fondo de la barra */
+    margin-bottom: 10px;
+    /* Espacio entre barras */
+    position: relative;
+    flex-direction: column;
+}
+/* Estilo para el texto dentro de las barras */
+
+.bar::after {
+    content: attr(data-name);
+    /* Muestra el atributo data-name como texto */
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Estilo para el valor de la barra (usando variables CSS) */
+
+.bar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--bar-value);
+    /* Usamos la variable --bar-value para establecer el ancho */
+    background-color: #17A2B8;
+    /* Color de la parte llena de la barra */
+}

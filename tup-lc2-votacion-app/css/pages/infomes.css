@@ -1,0 +1,189 @@
+header {
+    background-color: rgb(39, 37, 37);
+    font-size: 5px;
+}
+
+.logo-container {
+    /*darle color azul al fondo del logo DINE*/
+    background-color: rgb(47, 142, 219);
+    width: auto;
+    padding: 10px;
+    /* Ajusta según sea necesario */
+}
+
+
+nav {
+    /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+
+select {
+    background-color: rgba(34, 33, 33, 0.5);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.inicio-button {
+    background-color: rgb(226, 221, 221);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px 1px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 980px;
+    width: 60px;
+}
+
+.generales-button {
+    background-color: #37bbed;
+    /* Color azul */
+    color: white;
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    cursor: pointer;
+    padding: 10px 20px;
+    /* Ajusta el relleno según sea necesario */
+    border-radius: 5px;
+    /* Borde redondeado */
+    font-size: 12px;
+}
+
+.paso-button {
+    background-color: #ee3d8f;
+    /* Color rosa */
+    color: white;
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    cursor: pointer;
+    padding: 10px 20px;
+    /* Ajusta el relleno según sea necesario */
+    border-radius: 5px;
+    /* Borde redondeado */
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+nav {
+    /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    font-size: 5pxs;
+}
+
+.nav-links {
+    /*boton "INFORMES"*/
+    list-style: none;
+    margin-left: auto;
+    /*mover el boton a la derecha*/
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+#sec-titulo {
+    margin-left: 2spx;
+    /* Ajusta este valor según sea necesario para mover hacia la derecha */
+    font-size: 19px;
+    margin-top: 30px;
+
+}
+
+thead th {
+    font-size: 13px;
+}
+
+
+#sec-titulo h2 {
+    margin: 20px;
+    /* Elimina el margen predeterminado */
+}
+
+.grilla-container {
+    overflow-y: auto;
+    /* Habilitar scroll vertical */
+    max-height: 400px;
+    /* Altura máxima de la grilla */
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    /* Redondear bordes */
+}
+
+
+.grilla th,
+.grilla td {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* Redondear bordes */
+}
+
+.texto-path {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #2b87b6;
+}
+
+.mesas-computadas {
+    background-color: rgb(97, 201, 245);
+    border-radius: 10px;
+    margin: 15px;
+    height: 130px;
+    width: 70px;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-urna.svg');
+}
+
+.electores {
+    background-color: rgb(194, 50, 207);
+    border-radius: 10px;
+    height: 130px;
+    width: 70px;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-personas.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.participacion-escrutado {
+    background-color: rgb(154, 91, 236);
+    border-radius: 10px;
+    margin: 15px;
+    height: 140px;
+    width: 70px;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    color: #FFF;
+    background-image: url('ruta-a-la-imagen-manos.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mesas-computadas,
+.electores,
+.comunidad {
+    margin-left: 17px;
+    /* Ajusta el valor según sea necesario para acercar los cuadros */
+}
+
+footer {
+    /*darle fondo negro al pie de pagina*/
+    background-color: #9e9e9e;
+    text-align: left;
+    color: rgb(107, 103, 103);
+    margin-top: ;
+    /*que tan lejo esta el pie de pagina*/
+}
