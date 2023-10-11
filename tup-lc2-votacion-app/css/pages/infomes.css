@@ -1,0 +1,319 @@
+body {
+    background-color: #FFF;
+}
+
+.logo-container {
+    background-color: rgb(47, 142, 219);
+    padding: 10px;
+    width: 99%;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 200px;
+}
+
+header {
+    font-size: 5px;
+    width: 100%;
+}
+
+.paso-button {
+    background-color: #ee3d8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.generales-button {
+    background-color: #37bbed;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.inicio-button {
+    background-color: #acaaaa;
+    color: #d8d8d8;
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 972px;
+    margin-top: 6px;
+}
+
+.alert-conteiner {
+    width: 400px; /* Ancho de 400px */
+    margin: 20px auto; /* Margen de 20px en los lados y centrado horizontal */
+    padding: 15px; /* Padding de 15px */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    text-align: center; /* Texto centrado */
+}
+
+.exito {
+    color: #d8d8d8;
+    background-color: green;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.error {
+    margin-top: 10px;
+    color: #d8d8d8;
+    background-color: red;
+    border-radius: 20px;
+    width: 404px;
+    font-size: 20px;
+    padding: 1px;
+}
+
+.alert {
+    margin-top: 10px;
+    color: #d8d8d8;
+    background-color: rgb(233, 166, 66);
+    border-radius: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 1px;
+}
+
+  /* Estilos de la grilla principal */
+h1 {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.contenedor-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.contenedor-tabla {
+    overflow-y: scroll;
+    max-height: 460px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.grilla {
+    margin:30px;
+    border-radius: 25px;
+    border-collapse: collapse;
+    background-color: rgb(187, 187, 187);
+}
+  
+  /* Estilos de la cabecera (THEADER) */
+.grilla thead {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.grilla tbody tr:hover {
+    background-color: rgb(250, 250, 250);
+}
+  
+.grilla tbody td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(143, 143, 143);
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+  
+.provincia {
+    /* Estilos específicos para la columna "PROVINCIA" */
+    font-size: 14px;
+    color: var(--textos);
+    font-weight: bold;
+    max-width: 50px;
+}
+  
+.eleccion {
+    /* Estilos específicos para la columna "ELECCIÓN" */
+    font-size: 14px;
+    color: var(--textos);
+    font-weight: bold;
+    padding: 5px;
+}
+  
+.datos-generales {
+    /* Estilos específicos para la columna "datos generales" */
+    font-size: 14px;
+    color: var(--textos);
+    font-weight: bold;
+}
+  
+  /* Estilos para los datos generales */
+.datos-agrupados {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+  
+.texto-elecciones-chico{
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+.texto-path-chico{
+    font-size: 11px;
+    color: rgb(6, 209, 245);
+    width: 80px;
+    text-align: left;
+    padding: 5px;
+}
+  
+.contenido-datos-generales{
+    display: flex;
+    border: none;
+    padding: 5px;
+}
+
+.mesas-estructuradas{
+    display: flex;
+    align-items: center; 
+    margin: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    font-family: #fff;
+    border-radius: 10px;
+    background-color: rgb(8, 197, 197);
+    color: white;
+    font-size: 10px;
+}
+  
+.icono-mesa {
+    flex: 0 0 30%; 
+    text-align: center;
+    transform: translateX(-5px);
+}
+  
+.icono-mesa i {
+    font-size: 30px; 
+}
+  
+.contenido-mesa h3{
+    color: white; 
+}
+   
+.contenido-mesa p {
+    line-height: 1.5; 
+    color: white;
+    font-size: 12px;
+}
+  
+.electores{
+    display: flex;
+    align-items: center; 
+    margin: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    font-family: #fff;
+    border-radius: 10px;
+    background-color: magenta;
+    color: white;
+}
+
+.icono-electores {
+    flex: 0 0 30%; 
+    text-align: center;
+    transform: translateX(-5px);
+}
+  
+.icono-electores i {
+    font-size: 30px; 
+}
+  
+.contenido-electores h3{
+    color: white; 
+}
+  
+.contenido-electores p { 
+    line-height: 1.5; 
+    color: white;
+    font-size: 12px;
+}
+  
+.participacion-sobre-estructurado{
+    display: flex;
+    align-items: center; 
+    margin: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 0.5rem 1rem;
+    font-family: #fff;
+    border-radius: 10px;
+    background-color: rgb(65, 0, 65);
+    color: white;
+}
+  
+.icono-participacion{
+    flex: 0 0 30%; 
+    text-align: center;
+    transform: translateX(-5px);
+}
+  
+ .icono-participacion i {
+    font-size: 30px; 
+}
+  
+.contenido-participacion h3{
+    color: white; 
+    font-size: 12px;
+}
+
+.contenido-participacion p {
+    line-height: 1.5; 
+    color: white;
+    font-size: 12px;
+}
+  /*Contenido datos agrupados*/
+
+.sub-grilla {
+    padding-left: 30px;
+    width: 100px;
+    height: 40px;
+}
+  
+.first-column {
+    padding: 5px;
+    font-size: 10px;
+    color: var(--textos);
+}
+  
+.second-column {
+    padding: 5px;
+    font-size: 10px;
+    color: var(--textos);
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: rgb(107, 103, 103);
+    text-align: left;
+    width: 100%;
+}

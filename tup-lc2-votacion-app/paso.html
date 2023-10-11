@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Publicación de Resultados Electorales</title>
+    <link rel="shortcut icon" href="img/icons/favicon-16x16.png" type="image/x-icon">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/paso.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <header>
+        <!--Barra de logo portal-->
+        <div class="header-page">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/icons/Logo_DINE_negativo.a88f983e.png" alt="logo" class="logo">
+                </a>
+            </div>
+
+            <!--Barra de menú principal-->
+            <nav class="navbar">
+                <td>
+                    <select name="Año" id="year">
+                        <option value="Año">Año</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Cargo" id="Cargo">
+                        <option value="Cargo">Cargo</option>
+                        <option value="Presidente">Presidente</option>
+                        <option value="Viceprecidente">Viceprecidente</option>
+                        <option value="Jefed de gobierno">Jefe de gobierno</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Distrito" id="Distrito">
+                        <option value="Distrito">Distrito</option>
+                        <option value="Norte">Norte</option>
+                        <option value="Sur">Sur</option>
+                        <option value="Oeste">Oeste</option>
+                        <option value="Este">Este</option>
+                        <option value="Sudoeste">Sudoeste</option>
+                        <option value="Noreste">Noreste</option>
+                    </select>
+                </td>
+                <td>
+                    <button class="buscar"><img src="img/icons/lupa.png" alt="lupa" width="10px">Filtrar</button>
+                </td>
+                <td>
+                    <a href="generales.html">
+                        <li class="nav-item"><button class="generales-button">GENERALES</button></li>
+                    </a>
+                    <a href="informes.html">
+                        <li class="nav-item"><button class="informes-button">INFORMES</button></li>
+                    </a>
+                    <a href="index.html">
+                        <li class="nav-item"><button class="inicio-button">INICIO</button></li>
+                    </a>
+            </nav>
+
+    </header>
+
+
+    <main>
+        <div class="alert-conteiner">
+            <div class="exito">
+                <p><i class="fa fa-thumbs-up"></i> Se agrego con éxito el resultado al informe</p>
+            </div>
+            <div class="error">
+                <p><i class=" fa fa-exclamation-triangle"></i> Error: Se produjo un error al intentar agregar resultados al
+                    informe</p>
+            </div>
+            <div class="alert">
+                <p><i class="fa fa-exclamation"></i> La operacion no se pudo completar</p>
+            </div>
+        </div>
+        <section id="sec-titulo">
+            <table>
+                <tr>
+                    <td>
+                        <!--Seccion para agregar una palicula favorita por codigo-->
+                        <h1>Elecciones 2021 | Paso</h1>
+                        <p class="texto-path">2020 > Generales > Provisorio > Senadores Nacionales > Buenos Aires
+                        </p>
+        </section>
+
+        <section id="sec-messages">
+            <!-- Mensajes al usuario, por ejemplo, mensajes de error o éxito -->
+        </section>
+
+        <section id="sec-contenido">
+            <!--Seccion para contenido de la página-->
+
+            <button class="agregar-button">+ AGREGAR AL INFORME</button></td>
+            <td>
+               
+            </td>
+
+            </div>
+            </tr>
+            </table>
+
+            <!--Segunda parte del body-->
+            <tr>
+                <td>
+                    
+                </td>
+            </tr>
+
+
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+        <table>
+            <!--Agrege una tabla para acomodar los elementos del footer-->
+            <tr>
+                <td><img src="img/icons/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="Ministerio-del-Interior_pluma"
+                        width="90px"></td>
+                <td><img src="img/icons/Logo_DINE_negativo.a88f983e.png" alt="logo" width="90px"></td>
+                <td><img src="img/icons/logos_001-10.4430c8d5.png" alt="logos_001-10" width="90px"></td>
+                <td>
+                    <footer>
+                        <p style="font-size: 12px;">
+                            <br>
+                            Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley
+                            19945). Los porcentajes de las agrupaciones políticas son calculados sobre los votos válidos
+                            (PASO) conforme al art. 45 Ley 26.571 y afirmativos (Generales). No se
+                            incluyen los votos correspondientes a los electores residentes en el exterior ni privados de
+                            la libertad. Al usar este sitio usted acepta los Términos y Condiciones.
+                            <a href="hola.html">Términos y Condiciones</a>
+                        </p>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
